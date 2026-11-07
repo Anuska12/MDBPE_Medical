@@ -1,0 +1,11 @@
+matplotlib==3.10.8
+medmnist==3.0.2
+nibabel==5.4.2
+numpy==2.4.2
+pandas==3.0.0
+scipy==1.17.0
+torch==2.11.0
+torchvision==0.26.0
+tqdm==4.67.3
+scikit-image==0.26.0
+scikit-learn==1.8.0
