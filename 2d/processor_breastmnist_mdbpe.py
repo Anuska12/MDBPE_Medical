@@ -1,15 +1,4 @@
 # -*- coding: utf-8 -*-
-# Fixed for Nibi HPC - removed all plt.show() calls, fixed save paths
-#
-# ORDER FIX (Nov 2026): token file k now always corresponds to dataset image k.
-#   1. the training images are read in dataset order (shuffle=False);
-#   2. sequences are exported under the index of the image they came from,
-#      not under a new running counter (the old counter followed folder /
-#      os.walk order, which scrambled the order again);
-#   3. the labels are saved per file index, as recovered_labels_<split>.pt
-#      ({file index: label}) and recovered_index_<split>.pt ({file index:
-#      dataset index}, identity here), so the classifiers and analysis scripts
-#      run unchanged and no separate label-recovery step is needed.
 
 import torch
 from torchvision import datasets, transforms
