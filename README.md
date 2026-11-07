@@ -44,7 +44,7 @@ Exact commands for every table and figure in the thesis are in `docs/reproduce.m
 The MDBPE tokenizer is adapted from
 [DaiDaiLoh/MDBPE_TF](https://github.com/DaiDaiLoh/MDBPE_TF) (commit `<hash>`)
 and the accompanying paper (arXiv:2411.10281). The 3D and 4D extensions,
-classifiers, label recovery and all analyses are new in this work.
+classifiers and all analyses are new in this work.
 
 ## Status
 Private until publication. Please do not redistribute.
